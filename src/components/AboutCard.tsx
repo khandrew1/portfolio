@@ -28,9 +28,9 @@ const AboutCard = () => {
 			</CardHeader>
 			<CardContent>
 				<CardDescription className="text-bold text-md">
-					I'm a full-stack engineer looking for a full time job! I'm a recent
-					computer science graduate from UC Riverside Most of my projects focus
-					on dashboards and AI integration.
+					I&apos;m a full-stack engineer looking for a full time job! I&apos;m a
+					recent computer science graduate from UC Riverside Most of my projects
+					focus on dashboards and AI integration.
 					<br />
 					Check out some of my projects on the left!
 				</CardDescription>
