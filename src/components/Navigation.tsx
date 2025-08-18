@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -24,8 +26,8 @@ const Navigation = () => {
 			<CardContent>
 				<NavigationMenu>
 					<NavigationMenuList className="flex flex-col">
-						{links.map(({ title, link }, idx) => (
-							<NavigationMenuItem key={idx}>
+						{links.map(({ title, link }) => (
+							<NavigationMenuItem key={title}>
 								<NavigationMenuLink asChild>
 									<Link href={link}>{title}</Link>
 								</NavigationMenuLink>
