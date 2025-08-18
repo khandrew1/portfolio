@@ -19,13 +19,13 @@ const Navigation = () => {
 	];
 
 	return (
-		<Card className="flex items-center justify-center w-2/12 h-fit">
+		<Card className="flex items-center justify-center w-full md:w-2/12 h-fit">
 			<CardHeader className="w-full text-center">
 				<CardTitle>andrew khadder</CardTitle>
 			</CardHeader>
-			<CardContent>
+			<CardContent className="px-0 md:px-6">
 				<NavigationMenu>
-					<NavigationMenuList className="flex flex-col">
+					<NavigationMenuList className="flex flex-row md:flex-col">
 						{links.map(({ title, link }) => (
 							<NavigationMenuItem key={title}>
 								<NavigationMenuLink asChild>

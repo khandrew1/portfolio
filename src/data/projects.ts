@@ -1,5 +1,5 @@
-import type { ElementType } from "react";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import type { ElementType } from "react";
 
 export type LinkType = {
 	name: string;

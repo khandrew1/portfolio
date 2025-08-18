@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
 	Card,
 	CardContent,
@@ -5,11 +6,10 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
-import Image from "next/image";
 
 const AboutCard = () => {
 	return (
-		<Card className="w-3/5">
+		<Card className="md:w-3/5">
 			<CardHeader>
 				<CardTitle className="flex flex-row w-full justify-between h-[125px] gap-x-3">
 					<Image
@@ -20,9 +20,9 @@ const AboutCard = () => {
 						className="rounded-full"
 					/>
 					<div className="flex flex-col justify-between h-full w-full py-4">
-						<p>Hello my name is...</p>
+						<p className="text-center md:text-left">Hello my name is...</p>
 						<p className="text-3xl text-center">Andrew Khadder</p>
-						<p className="text-right">AI Full Stack Engineer</p>
+						<p className="text-center md:text-right">AI Full Stack Engineer</p>
 					</div>
 				</CardTitle>
 			</CardHeader>
@@ -32,7 +32,7 @@ const AboutCard = () => {
 					recent computer science graduate from UC Riverside Most of my projects
 					focus on dashboards and AI integration.
 					<br />
-					Check out some of my projects on the left!
+					Check out some of my projects!
 				</CardDescription>
 			</CardContent>
 		</Card>

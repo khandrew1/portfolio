@@ -3,7 +3,7 @@ import { EXPERIENCE } from "@/data/experience";
 
 const Page = () => {
 	return (
-		<div className="flex flex-col w-3/5 gap-y-3">
+		<div className="flex flex-col md:w-3/5 gap-y-3">
 			{EXPERIENCE.map(
 				({ role, companyName, startDate, endDate, location, points }) => (
 					<ExperienceCard

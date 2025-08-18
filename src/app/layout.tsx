@@ -26,7 +26,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<body className={`antialiased w-screen h-screen`}>
-				<div className="flex flex-row space-x-5 w-full ml-32 mt-32">
+				<div className="flex flex-col w-full space-y-3 md:flex-row md:space-x-5 md:ml-32 md:mt-32">
 					<Navigation />
 					{children}
 				</div>
